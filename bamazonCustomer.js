@@ -26,7 +26,7 @@ connection.connect(function (err) {
 function buyOrGoHome() {
     inquirer.prompt([{
         name: "buyOrGo",
-        message: "what would you like to buy?",
+        message: "what would you like to do?",
         type: "list",
         choices: ["Buy something", "Go home"]
     }]).then(answers => {

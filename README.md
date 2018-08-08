@@ -29,39 +29,42 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 ![CLI screenshot](images/5.png)
 ![CLI screenshot](images/4.png)
 
-
+- - -
 
 
 
 ### Challenge #2: Manager View (Next Level)
 
-* Run the command **node bamazonManager.js**
+* Run the command **node bamazonManager.js**, it will show some options.
   ![CLI screenshot](images/6.png)
 
 
-  * If a manager selects `View Products for Sale`, the app should list every available item: the item IDs, names, prices, and quantities.
+  * when manager selects `View Products for Sale`, it should list every available item: the item IDs, names, prices, and quantities.
  ![CLI screenshot](images/7.png)
 
-   * If a manager selects `View Low Inventory`, then it should list all items with an inventory count lower than five.
+   * when manager selects `View Low Inventory`, then it should list all items with an inventory count lower than five.
  ![CLI screenshot](images/8.png)
 
-   * If a manager selects `Add to Inventory`, your app should display a prompt that will let the manager "add more" of any item currently in the store.
+
+   * when manager selects `Add to Inventory`, it should display a prompt that will let the manager "add more" of any item currently in the store.
  ![CLI screenshot](images/9_1.png)
  ![CLI screenshot](images/9_2.png)
 
 
-  * If a manager selects `Add New Product`, it should allow the manager to add a completely new product to the store.
+
+  * when manager selects `Add New Product`, it should allow the manager to add a completely new product to the store.
 
  ![CLI screenshot](images/10.png)
 
 
 
 
+- - -
 
 
 ### Challenge #3: Supervisor View (Final Level)
 
-* i have problem to make SQL Query...so i could not have right product_sales by department...
+* i have not finished yet because i have problem to make SQL Query...so i could not have right product_sales total by department...
   i will ask TA to help me out.
 
 
